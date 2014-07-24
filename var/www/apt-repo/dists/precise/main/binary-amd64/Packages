@@ -1,0 +1,93 @@
+Package: java-common
+Priority: optional
+Section: java
+Installed-Size: 340
+Maintainer: Debian Java Mailing List <debian-java@lists.debian.org>
+Architecture: all
+Version: 0.40
+Suggests: default-jre, equivs
+Filename: dists/precise/main/binary-amd64/java-common_0.40_all.deb
+Size: 64290
+MD5sum: 8cd8d052c5027dbf649c22257d270ce4
+SHA1: d4c43a9549292c62bd5ea3c31ed664029c8e5417
+SHA256: 87ea2537ad9ec7b843b619be5ed57f32adb493684191675721d4686a06efb47e
+SHA512: c17d6db7b47c2be600ac00657c8119850894d702da035b776f1fe86912dcbec9d440c54b26132220c03d41eaa4884f132bcd95674e03e573b380846242790e3f
+Description: Base of all Java packages
+ This package must be installed in the system if a Java environment
+ is desired. It covers useful information for Java users in
+ Debian GNU/Linux, including:
+  * The Java policy document which describes the layout of Java support in
+    Debian and how Java packages should behave.
+  * The Debian-Java-FAQ which provides information on the status of
+    Java support in Debian, available compilers, virtual machines, Java
+    programs and libraries as well as on legal issues.
+  * Information on how to create dummy packages to fulfill java2
+    requirements.
+
+Package: sun-java6-jre
+Priority: optional
+Section: non-free/java
+Installed-Size: 14316
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: all
+Source: sun-java6
+Version: 6.26-0squeeze1
+Replaces: ia32-sun-java6-bin, sun-java6-bin
+Provides: java-runtime, java-runtime-headless, java-virtual-machine, java2-runtime, java2-runtime-headless, java5-runtime, java5-runtime-headless, java6-runtime, java6-runtime-headless
+Depends: java-common (>= 0.24), locales, sun-java6-bin (>= 6.26-0squeeze1) | ia32-sun-java6-bin (>= 6.26-0squeeze1)
+Pre-Depends: debconf (>= 0.5) | debconf-2.0
+Recommends: gsfonts-x11
+Suggests: sun-java6-plugin | ia32-sun-java6-plugin, sun-java6-fonts, ttf-baekmuk | ttf-unfonts | ttf-unfonts-core, ttf-kochi-gothic | ttf-sazanami-gothic, ttf-kochi-mincho | ttf-sazanami-mincho, ttf-arphic-uming
+Conflicts: j2se-common
+Filename: dists/precise/main/binary-amd64/sun-java6-jre_6.26-0squeeze1_all.deb
+Size: 6512932
+MD5sum: 24ebf81f794a62f2f1a6bc9a30f5c13b
+SHA1: 20a92471517089ccea32d7546ce4c8239e61b143
+SHA256: 99bcd26a280782f219af935a6ba156edafc1277da1725d516bb28aea47517c8c
+SHA512: 0a241e8ebbe6a96463a0e62bb6bae6b33597c92b6ec81c447434eda4ea854c8e229060e23a68672c2e8af917a86315ad9cd4596ca092e7a58be6aa898101659c
+Description: Sun Java(TM) Runtime Environment (JRE) 6 (architecture independent files)
+ The Sun Java Platform Standard Edition Runtime Environment (JRE) 6
+ contains the Java virtual machine, runtime class libraries, and
+ Java application launcher that are necessary to run programs written
+ in the Java progamming language. It is not a development environment and
+ doesn't contain development tools such as compilers or debuggers.
+ For development tools, see the Java Development Kit JDK(TM) 6
+ (package sun-java6-jdk).
+ .
+ NOTE: You must accept Sun's EULA prior to successfully installing
+ this package
+ .
+ This package contains architecture independent files.
+Homepage: http://jdk-distros.java.net/
+
+Package: sun-java6-bin
+Priority: optional
+Section: non-free/java
+Installed-Size: 83864
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: sun-java6
+Version: 6.26-0squeeze1
+Depends: sun-java6-jre (>= 6.26-0squeeze1), unixodbc, libc6
+Pre-Depends: debconf (>= 0.5) | debconf-2.0
+Recommends: libasound2, libx11-6, libxext6, libxi6, libxt6, libxtst6, libnss-mdns
+Suggests: binfmt-support
+Conflicts: binfmt-support (<< 1.1.2)
+Filename: dists/precise/main/binary-amd64/sun-java6-bin_6.26-0squeeze1_amd64.deb
+Size: 28677920
+MD5sum: 32c9ff1ce9b93a95976c4ca95d926ab4
+SHA1: b7f9d5563662d74540deb1437c2b792855d9487c
+SHA256: 3ef86b6a49fb5d9f2bd85f619f91b0eb7c60036eb173d61c52a1b1a163937177
+SHA512: 593936ec1b58d37daa02c388c70356d396a5fc4b8773fe2b430da3c9c09512314250774542b71970b46d08a6ec415d03158b81292dccb81163a66f568e2ac9de
+Description: Sun Java(TM) Runtime Environment (JRE) 6 (architecture dependent files)
+ The Sun Java Platform Standard Edition Runtime Environment (JRE) 6
+ contains the Java virtual machine, runtime class libraries, and
+ Java application launcher that are necessary to run programs written
+ in the Java progamming language. It is not a development environment and
+ doesn't contain development tools such as compilers or debuggers.
+ For development tools, see the Java Development Kit JDK(TM) 6
+ (package sun-java6-jdk).
+ .
+ This package contains architecture dependent files.
+Homepage: http://jdk-distros.java.net/
+

@@ -1,0 +1,40 @@
+Architectures: i386 amd64
+Codename: precise
+Components: main
+Date: Thu, 16 May 2013 11:50:16 UTC
+Description: External Debian Packages
+Label: AKQA APT repo
+Origin: AKQA
+Suite: stable
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e                0 Release
+ 68d8b3c79d4cae28d05855ccf12d294b             4639 main/binary-amd64/Packages
+ 7d0c1d07937bae14241662884f33b8ca             2090 main/binary-amd64/Packages.bz2
+ a57f2b7a64fa77b62d93c52c0c55248e             1917 main/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e                0 main/binary-i386/Packages
+ 4059d198768f9f8dc9372dc1c54bc3c3               14 main/binary-i386/Packages.bz2
+ e62ff0123a74adfc6903d59a449cbdb0               40 main/binary-i386/Packages.gz
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Release
+ 1035bafecce039e737124211151259b0d847a417             4639 main/binary-amd64/Packages
+ a8910e7264f493536064edb561cdf26c27e9acc8             2090 main/binary-amd64/Packages.bz2
+ 077f72a39c21ea3c58a691309314de2ddfdae435             1917 main/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-i386/Packages
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2               14 main/binary-i386/Packages.bz2
+ e3f4c61a216c2c9613cd3bdd1420dde095b296b3               40 main/binary-i386/Packages.gz
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Release
+ 9de6fdd157ee83b72d8aa85c51e5f18a90c7fb86a304f39bb15c9933c144674d             4639 main/binary-amd64/Packages
+ 9ff45f1e59cf3e1736e9620165f28902cfe1b3b2ab60b4bbe1da73ffb9dcc6d2             2090 main/binary-amd64/Packages.bz2
+ 9bcc11c3892041eb704f62b4b3bc63913104471d84f785c608934b762526fa82             1917 main/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-i386/Packages
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058               14 main/binary-i386/Packages.bz2
+ e7ab72b8f37c7c9c9f6386fb8e3dfa40bf6fe4b67876703c5927e47cb8664ce4               40 main/binary-i386/Packages.gz
+SHA512:
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Release
+ e5e65862dc785147f642e95c6e64f822cc7485a51ee3874c2c6819cd44a0c06db822721169c0dc62ab35eb79185851d06eafadb3943faf92a09ae6cffaa1ce82             4639 main/binary-amd64/Packages
+ 8ee64baf477ed39334374a970c46bdce995bfbe122c9d3a063647776ab75bf17ba87778b9b6a3a0ca17bde82cf8d828eb848256894d128d385db0ad639f22d4d             2090 main/binary-amd64/Packages.bz2
+ 4b3b63d8447432f88017360984e9d166b9228f2810b09dab6b191ab23375b730dd48ae5e35cc38400eb7b98d16a7fc75b57931b6b8602fcaa28c286868074d59             1917 main/binary-amd64/Packages.gz
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-i386/Packages
+ 6de201dfed1d45412509c65deb34690dc2d09c6aafccfe491fd2f440f92842b9c755b61dc7bcdd4cc0c9f18cf46c2b3a1241e99c4c2a33fff5555e7b2f0b6348               14 main/binary-i386/Packages.bz2
+ 4837cb0c747b88cd66d2e8a7cb7fe2808a8fd9f967e467810a0dddfee9befdef8891f3be5c26e319d2ac8a869cb9e39d5ba1fb484db73231cec9fd66d1d5df33               40 main/binary-i386/Packages.gz

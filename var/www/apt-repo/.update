@@ -1,0 +1,6 @@
+apt-ftparchive generate conf/apt-ftparchive.conf
+apt-ftparchive -c conf/apt-squeeze-release.conf release dists/squeeze/ > dists/squeeze/Release
+apt-ftparchive -c conf/apt-precise-release.conf release dists/precise/ > dists/precise/Release
+apt-ftparchive -c conf/apt-raring-release.conf release dists/raring/ > dists/raring/Release
+apt-ftparchive -c conf/apt-quantal-release.conf release dists/quantal/ > dists/quantal/Release
+apt-ftparchive -c conf/apt-wheezy-release.conf release dists/wheezy/ > dists/wheezy/Release

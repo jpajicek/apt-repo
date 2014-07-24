@@ -1,0 +1,24 @@
+<VirtualHost *:80>
+	ServerAdmin webmaster@localhost
+ 	ServerName apt-repo.emea.akqa.local
+ 	ServerAlias apt-repo
+	DocumentRoot /var/www/apt-repo
+
+ 	<Directory /var/www/apt-repo>
+ 		Options Indexes FollowSymLinks MultiViews
+ 		DirectoryIndex index.html
+ 		AllowOverride None
+ 		Order allow,deny
+ 		allow from all
+ 	</Directory>
+	# Hide the conf/ directory for all repositories
+ 	<Directory "/var/www/apt-repo/conf">
+ 		Order allow,deny
+ 		Deny from all
+ 		Satisfy all
+ 	</Directory>
+
+	CustomLog /var/log/apache2/aptrepo-access.log combined
+ 	ErrorLog /var/log/apache2/aptrepo-error.log
+ 	LogLevel warn
+</VirtualHost>
